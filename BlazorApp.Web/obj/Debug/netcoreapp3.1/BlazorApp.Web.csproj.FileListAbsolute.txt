@@ -1,0 +1,239 @@
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\appsettings.json
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\BlazorApp.Web.exe
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.csprojAssemblyReference.cache
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.AssemblyInfoInputs.cache
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.AssemblyInfo.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.RazorComponent.input.cache
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.RazorAssemblyInfo.cache
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.RazorAssemblyInfo.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.TagHelpers.input.cache
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.TagHelpers.output.cache
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.RazorCoreGenerate.cache
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.RazorTargetAssemblyInfo.cache
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.RazorTargetAssemblyInfo.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\staticwebassets\BlazorApp.Web.StaticWebAssets.Manifest.cache
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\staticwebassets\BlazorApp.Web.StaticWebAssets.xml
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\BlazorApp.Web.StaticWebAssets.xml
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\BlazorApp.Web.deps.json
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\BlazorApp.Web.runtimeconfig.json
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\BlazorApp.Web.runtimeconfig.dev.json
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\BlazorApp.Web.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\BlazorApp.Web.pdb
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\BlazorApp.Web.Views.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\BlazorApp.Web.Views.pdb
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Forms.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Web.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.JSInterop.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Syncfusion.ExcelExport.Net.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Syncfusion.Licensing.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Syncfusion.PdfExport.Net.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.Views.pdb
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.csproj.CopyComplete
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.pdb
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.genruntimeconfig.cache
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Task.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FilterBar.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FilterSide.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\MainView.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\NewTicket.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.WordProcessor.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Syncfusion.Compression.Portable.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Syncfusion.DocIO.Portable.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Syncfusion.OfficeChart.Portable.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Syncfusion.WordProcessor.AspNet.Core.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\OpenTicket.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\DevExpress.Blazor.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\DevExtreme.AspNet.Data.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.csproj.CoreCompileInputs.cache
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.MvcApplicationPartsAssemblyInfo.cache
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\BlazorApp.Web.dll
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Pages\FilterBar.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Pages\FilterSide.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Pages\MainView.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Pages\NewTicket.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Pages\OpenTicket.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Task.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CustomizeRichText.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Pages\CustomizeRichText.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ReplayBox.razor.g.cs
+E:\My Project\C# Project\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Pages\ReplayBox.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.csprojAssemblyReference.cache
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.AssemblyInfoInputs.cache
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.AssemblyInfo.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.csproj.CoreCompileInputs.cache
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.MvcApplicationPartsAssemblyInfo.cache
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.RazorComponent.input.cache
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CustomizeRichText.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FilterBar.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FilterSide.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\MainView.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\NewTicket.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\OpenTicket.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ReplayBox.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Task.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.RazorComponent.output.cache
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\BlazorApp.Web.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.TagHelpers.input.cache
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.TagHelpers.output.cache
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.RazorCoreGenerate.cache
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Pages\CustomizeRichText.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Pages\FilterBar.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Pages\FilterSide.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Pages\MainView.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Pages\NewTicket.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Pages\OpenTicket.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Pages\ReplayBox.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Task.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.RazorAssemblyInfo.cache
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.RazorAssemblyInfo.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.pdb
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\appsettings.json
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\BlazorApp.Web.StaticWebAssets.xml
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\BlazorApp.Web.exe
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\BlazorApp.Web.deps.json
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\BlazorApp.Web.runtimeconfig.json
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\BlazorApp.Web.runtimeconfig.dev.json
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\BlazorApp.Web.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\BlazorApp.Web.pdb
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\BlazorApp.Web.Views.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\BlazorApp.Web.Views.pdb
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\DevExpress.Blazor.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\DevExtreme.AspNet.Data.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Forms.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Web.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Microsoft.JSInterop.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.WordProcessor.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Syncfusion.Compression.Portable.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Syncfusion.DocIO.Portable.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Syncfusion.ExcelExport.Net.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Syncfusion.Licensing.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Syncfusion.OfficeChart.Portable.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Syncfusion.PdfExport.Net.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\Syncfusion.WordProcessor.AspNet.Core.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\staticwebassets\BlazorApp.Web.StaticWebAssets.Manifest.cache
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\staticwebassets\BlazorApp.Web.StaticWebAssets.xml
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\scopedcss\bundle\BlazorApp.Web.styles.css
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.RazorTargetAssemblyInfo.cache
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.RazorTargetAssemblyInfo.cs
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.Views.pdb
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.csproj.CopyComplete
+E:\tempery files\BlazorApp.Web\BlazorApp.Web\obj\Debug\netcoreapp3.1\BlazorApp.Web.genruntimeconfig.cache

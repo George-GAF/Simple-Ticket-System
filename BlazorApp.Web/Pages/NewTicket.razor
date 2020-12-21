@@ -1,0 +1,142 @@
+﻿@inherits NewTicketBase
+
+<style>
+    .new-ticket {
+        height: auto;
+        color: #888888;
+        background-color: #eaeced;
+        padding: 10px;
+        border-radius: 5px 5px 0px 0px;
+        font-size: 11px;
+        font-family: sans-serif
+    }
+
+    .centerd {
+        min-width: 90%;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .anm-div {
+        animation: strec-hei 1s ease;
+    }
+
+    @@keyframes strec-hei {
+        from {
+            height: 0px;
+        }
+
+        to {
+            height: 200px;
+        }
+    }
+
+    .margin-lr {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .margin-tb {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .prop-box {
+        margin: 2%;
+        padding: 5px;
+        background-color: #eaeced;
+    }
+
+    .style-compbox {
+        margin: 3px;
+        padding: 3px 0px 3px 0px;
+        display: inline-block;
+    }
+
+    .label-w {
+        width: 130px;
+    }
+
+    .style-t {
+        padding: 2px;
+        border-width: 0.5px;
+        width: inherit;
+        margin: 2px 0px 2px 0px
+    }
+
+    .title-l {
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+</style>
+<div class="shadow-sm mb-5 bg-white rounded centerd">
+    <div class="new-ticket">
+        NEW TICKET
+    </div>
+
+    <div class="shadow-sm mb-5 rounded prop-box margin-lr">
+        <div>
+            <label class="style-compbox label-w">Customer Name : </label>
+            <div class="style-compbox">
+                <SfComboBox TValue="int" Value="@CusID" TItem="ChooseList" DataSource="CusList" Placeholder="Customer Name">
+                    <ComboBoxFieldSettings Value="ID" Text="Text"></ComboBoxFieldSettings>
+                </SfComboBox>
+            </div>
+        </div>
+
+        <div>
+            <label class="style-compbox label-w">Priority : </label>
+            <div class="style-compbox">
+                <SfComboBox TValue="int" Value="@PriID" TItem="ChooseList" DataSource="PriList" Placeholder="Priority">
+                    <ComboBoxFieldSettings Value="ID" Text="Text"></ComboBoxFieldSettings>
+                </SfComboBox>
+            </div>
+        </div>
+
+        <div>
+            <label class="style-compbox label-w title-l" style="display:block">Asset Name : </label>
+            <div class="style-compbox">
+                <label class="style-compbox label-w">@AssitName</label>
+                <input class="rounded style-t" @bind-value="AssID" @onfocusout="GetAssetName" type="text" placeholder="assit name" />
+            </div>
+        </div>
+
+        @if (ShowDeviceLabel)
+        {
+            <div>
+                <label class="style-compbox label-w title-l" style="display:block">Device Name : </label>
+                <div class="style-compbox">
+                    <label class="style-compbox label-w"></label>
+                    <input class="rounded style-t" @bind-value="DevID" @onfocusout="GetDeviceName" type="text" placeholder="Device Name" />
+                </div>
+            </div>
+        }
+
+    </div>
+
+
+    <div class="margin-lr margin-tb" style="width:98%">
+        <input class="rounded style-t" type="text" @bind-value="Subject" placeholder="Subject" />
+    </div>
+
+
+    <div>
+        <div class="margin-lr">
+            <SfRichTextEditor Width="auto" Height="500" @bind-Value="@textValue" EditorMode="EditorMode.Markdown" EnableHtmlEncode="false" />
+        </div>
+        <div class="text-justify margin-lr text-truncate" style="margin-top:5px;margin-bottom:5px">Attach file</div>
+        <div class="margin-lr">
+            <SfUploader AutoUpload="false" AllowedExtensions=".jpg,.png.bmp">
+                <UploaderEvents ValueChange="OnChange">
+
+                </UploaderEvents>
+            </SfUploader>
+        </div>
+        <div class="margin-lr margin-tb">
+            <button type="button" class="btn btn-primary" @onclick="@(e=>ChangeState(true))">Save</button>
+            <button type="button" class="btn btn-danger" @onclick="@(e=>ChangeState(false))">Cancel</button>
+        </div>
+    </div>
+
+</div>

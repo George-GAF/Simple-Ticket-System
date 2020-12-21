@@ -1,0 +1,104 @@
+﻿@inherits FilterBarBase
+
+<style>
+    .backgroundColor {
+        background-color: gray
+    }
+
+    .grid-row {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .filter-btn {
+        padding: 1px;
+        margin: 5px;
+        border-width:0px;
+        border-radius:3px;
+        background-color:transparent;
+    }
+    .title-menu {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 5px;
+        padding: 12px;
+        font-size: 15px;
+        font-weight:bold;
+        border-width: 0px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        background-color: #a3a6a8;
+        color: white;
+    }
+    .grad-background {
+        background: rgb(163,166,168);
+        background: linear-gradient(180deg, rgba(163,166,168,1) 0%, rgba(76,91,107,1) 100%);
+    }
+</style>
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding-top:10px;margin-bottom:0px;padding:0px">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-bottom:0px">
+            <ul class="navbar-nav mr-auto" style="margin-bottom:0px">
+                <li>
+                    <a class="navbar-brand title-menu shadow" href="" @onclick="Close" >Ticket</a>
+                </li>
+            </ul>
+            @if (!ShowItem)
+            {
+                <form class="form-inline my-2 my-lg-0 shadow">
+                    <input class="btn btn-primary" type="button" value="+new ticket" @onclick="MakingNewTicket" style="margin:5px;font-size:small">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            }
+        </div>
+    </nav>
+    <div class="grad-background">
+        <div class="btn-group " role="group" aria-label="Basic example" style="background-color:transparent;margin:3px">
+            @if (!ShowItem)
+            {
+                <button type="button" class="btn-@cssBut1 filter-btn" @onmousedown="PressBut1">Unanswered</button>
+                <button type="button" class="btn-@cssBut2 filter-btn" @onmousedown="PressBut2">Unclosed</button>
+                <button type="button" class="btn-@cssBut3 filter-btn" @onmousedown="PressBut3">Unassigned</button>
+                <button type="button" class="btn-@cssBut4 filter-btn" @onmousedown="PressBut4">All</button>
+            }
+        </div>
+    </div>
+</div>
+@code{
+    string pressdStyle { get; set; } = "secondary";
+    string unPressdStyle { get; set; } = "";
+
+    string cssBut1 { get; set; } = "";
+    string cssBut2 { get; set; } = "";
+    string cssBut3 { get; set; } = "";
+    string cssBut4 { get; set; } = "";
+
+    public void PressBut1()
+    {
+        cssBut1 = pressdStyle;
+        cssBut2 = unPressdStyle;
+        cssBut3 = unPressdStyle;
+        cssBut4 = unPressdStyle;
+
+    }
+    public void PressBut2()
+    {
+        cssBut1 = unPressdStyle;
+        cssBut2 = pressdStyle;
+        cssBut3 = unPressdStyle;
+        cssBut4 = unPressdStyle;
+    }
+    public void PressBut3()
+    {
+        cssBut1 = unPressdStyle;
+        cssBut2 = unPressdStyle;
+        cssBut3 = pressdStyle;
+        cssBut4 = unPressdStyle;
+    }
+    public void PressBut4()
+    {
+        cssBut1 = unPressdStyle;
+        cssBut2 = unPressdStyle;
+        cssBut3 = unPressdStyle;
+        cssBut4 = pressdStyle;
+    }
+}

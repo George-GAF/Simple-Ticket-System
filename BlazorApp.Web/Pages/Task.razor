@@ -1,0 +1,309 @@
+﻿@inherits TaskBase
+
+<style>
+    .checkbox-btn {
+        width: 100%;
+        height: 100%;
+    }
+
+    .grid-table {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 8px;
+        border-radius: 10px;
+        background-color: aliceblue
+    }
+
+    .mar-btn {
+        margin: 5px;
+    }
+
+    .e-hover {
+        color: gray
+    }
+    .select-cric {
+        width: 15px;
+        height: 15px;
+        border-style: solid;
+        border-color: gray;
+        border-radius: 50%;
+        border-width: 0.5px
+    }
+</style>
+
+<DxPopup HeaderText="Assign To" @bind-Visible="@PopupVisible">
+    <Content>
+        @if (!TicketsSelected)
+        {
+            <p>@AssginMessage</p>
+        }
+        else
+        {
+            <SfGrid DataSource="@techNames" AllowFiltering="true">
+                <GridPageSettings PageSize="10"></GridPageSettings>
+                <GridEvents TValue="TechName" RowSelected="TecNameRow"></GridEvents>
+                <GridColumns>
+                    <GridColumn Field=@nameof(TechName.Name)></GridColumn>
+                </GridColumns>
+            </SfGrid>
+        }
+    </Content>
+    <FooterTemplate>
+        <DxButton RenderStyle="ButtonRenderStyle.Primary" @onclick="AddTechToTicket" Text="OK" />
+    </FooterTemplate>
+</DxPopup>
+
+<div class="grid-table shadow">
+    <div class="mar-btn">
+        <div class="btn btn-primary" @onclick="Assign">Assign</div>
+    </div>
+    <SfGrid DataSource="@TicketDtos" ShowColumnChooser="true" Toolbar="@( new List<string>() { "ColumnChooser"})" EnableHover="false" AllowPaging="true" AllowFiltering="true" AllowSorting="true" AllowGrouping="true">
+        <GridPageSettings PageSize="15"></GridPageSettings>
+        <GridFilterSettings Type="Syncfusion.Blazor.Grids.FilterType.Excel" IgnoreAccent="true" ></GridFilterSettings>
+        <GridEvents TValue="TicketDto" OnRecordClick="RecordClickHandler" RowDataBound="RowBound"></GridEvents>
+        <GridSelectionSettings CellSelectionMode="CellSelectionMode.Box" CheckboxMode="CheckboxSelectionType.Default" Mode="Syncfusion.Blazor.Grids.SelectionMode.Row" Type="SelectionType.Multiple"></GridSelectionSettings>
+        <GridColumns>
+            <GridColumn Field=@nameof(TicketDto.IsSelected)  ShowInColumnChooser="false" TextAlign="TextAlign.Center" Width="50" Type="ColumnType.Boolean" EditType="EditType.BooleanEdit" DisplayAsCheckBox="true" HeaderText="Select" AllowSorting="false" AllowFiltering="false" AllowGrouping="false">
+                <Template>
+                    @{
+                        var c = (context as TicketDto).IsSelected;
+
+                        if (c)
+                        {
+                            <div class="select-cric" style="background-color:green"></div>
+                            @*<svg width="1.2em" height="1.2em" viewBox="0 0 16 16" class="bi bi-check-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                            </svg>*@
+                        }
+                        else
+                        {
+                            <div class="select-cric"></div>
+                            @*<svg width="1.2em" height="1.2em" viewBox="0 0 16 16" style="border-color:black" class="bi bi-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                            </svg>*@
+                        }
+                    }
+                </Template>
+            </GridColumn>
+
+            <GridColumn Field=@nameof(TicketDto.TicketNo) Visible="ColumnVisb[0]" HeaderText="Ticket ID" TextAlign="TextAlign.Left">
+                <Template>
+                    @{
+                        var cell = (context as TicketDto);
+                        if (cell.Priority == Priority.High || cell.Priority == Priority.Critical)
+                        {
+                            <div class="height-font">@cell.TicketNo</div>
+                        }
+                        else
+                        {
+                            <div>@cell.TicketNo</div>
+                        }
+                    }
+                </Template>
+            </GridColumn>
+            <GridColumn Field=@nameof(TicketDto.TicketDate) Visible="ColumnVisb[1]" HeaderText="Ticket Date" TextAlign="TextAlign.Left">
+                <Template>
+                    @{
+                        var cell = (context as TicketDto);
+                        if (cell.Priority == Priority.High || cell.Priority == Priority.Critical)
+                        {
+                            <div class="height-font">@cell.TicketDate</div>
+                        }
+                        else
+                        {
+                            <div>@cell.TicketDate</div>
+                        }
+                    }
+                </Template>
+            </GridColumn>
+            <GridColumn Field=@nameof(TicketDto.TicketTypeName) Visible="ColumnVisb[2]" HeaderText="Type Name" TextAlign="TextAlign.Left">
+                <Template>
+                    @{
+                        var cell = (context as TicketDto);
+                        if (cell.Priority == Priority.High || cell.Priority == Priority.Critical)
+                        {
+                            <div class="height-font">@cell.TicketTypeName</div>
+                        }
+                        else
+                        {
+                            <div>@cell.TicketTypeName</div>
+                        }
+                    }
+                </Template>
+            </GridColumn>
+            <GridColumn Field=@nameof(TicketDto.Subject) Visible="ColumnVisb[3]" HeaderText="Subject" TextAlign="TextAlign.Left">
+                <Template>
+                    @{
+                        var cell = (context as TicketDto);
+                        if (cell.Priority == Priority.High || cell.Priority == Priority.Critical)
+                        {
+                            <div class="height-font">@cell.Subject</div>
+                        }
+                        else
+                        {
+                            <div>@cell.Subject</div>
+                        }
+                    }
+                </Template>
+            </GridColumn>
+            <GridColumn Field=@nameof(TicketDto.Description) Visible="ColumnVisb[4]" HeaderText="Description" TextAlign="TextAlign.Left">
+                <Template>
+                    @{
+                        var cell = (context as TicketDto);
+                        if (cell.Priority == Priority.High || cell.Priority == Priority.Critical)
+                        {
+                            <div class="height-font">@cell.Description</div>
+                        }
+                        else
+                        {
+                            <div>@cell.Description</div>
+                        }
+                    }
+                </Template>
+            </GridColumn>
+            <GridColumn Field=@nameof(TicketDto.OpenOn) Visible="ColumnVisb[5]" HeaderText="Open Data" TextAlign="TextAlign.Left">
+                <Template>
+                    @{
+                        var cell = (context as TicketDto);
+                        if (cell.Priority == Priority.High || cell.Priority == Priority.Critical)
+                        {
+                            <div class="height-font">@cell.OpenOn</div>
+                        }
+                        else
+                        {
+                            <div>@cell.OpenOn</div>
+                        }
+                    }
+                </Template>
+            </GridColumn>
+            <GridColumn Field=@nameof(TicketDto.OpenByUserName) Visible="ColumnVisb[6]" HeaderText="Open By" TextAlign="TextAlign.Left">
+                <Template>
+                    @{
+                        var cell = (context as TicketDto);
+                        if (cell.Priority == Priority.High || cell.Priority == Priority.Critical)
+                        {
+                            <div class="height-font">@cell.OpenByUserName</div>
+                        }
+                        else
+                        {
+                            <div>@cell.OpenByUserName</div>
+                        }
+                    }
+                </Template>
+            </GridColumn>
+            <GridColumn Field=@nameof(TicketDto.ClosedOn) Visible="ColumnVisb[7]" HeaderText="Close Date" TextAlign="TextAlign.Left">
+                <Template>
+                    @{
+                        var cell = (context as TicketDto);
+                        string t = cell.ClosedOn == null ? "not Closed" : cell.ClosedOn.ToString();
+                        if (cell.Priority == Priority.High || cell.Priority == Priority.Critical)
+                        {
+                            <div class="height-font">@t</div>
+                        }
+                        else
+                        {
+                            <div>@t</div>
+                        }
+                    }
+                </Template>
+            </GridColumn>
+            <GridColumn Field=@nameof(TicketDto.Priority) Visible="ColumnVisb[8]" HeaderText="Priority" TextAlign="TextAlign.Center">
+                <Template>
+                    @{
+                        var cell = (context as TicketDto);
+                        if (cell.Priority == Priority.High || cell.Priority == Priority.Critical)
+                        {
+                            <div class="height-font">@cell.Priority</div>
+                        }
+                        else
+                        {
+                            <div>@cell.Priority</div>
+                        }
+                    }
+                </Template>
+            </GridColumn>
+            <GridColumn Field=@nameof(TicketDto.Closed) Visible="ColumnVisb[9]" HeaderText="Status" TextAlign="TextAlign.Left">
+                <Template>
+                    @{
+                        var cell = (context as TicketDto);
+                        string t = cell.Closed == true ? "Closed" : "Open";
+                        if (cell.Priority == Priority.High || cell.Priority == Priority.Critical)
+                        {
+                            <div class="height-font">@t</div>
+                        }
+                        else
+                        {
+                            <div>@t</div>
+                        }
+                    }
+                </Template>
+            </GridColumn>
+            <GridColumn Field=@nameof(TicketDto.CloseByUserName) Visible="ColumnVisb[10]" HeaderText="Closed By" TextAlign="TextAlign.Left">
+                <Template>
+                    @{
+                        var cell = (context as TicketDto);
+                        var t = cell.CloseByUserName;
+                        if (cell.Priority == Priority.High || cell.Priority == Priority.Critical)
+                        {
+                            <div class="height-font">@t</div>
+                        }
+                        else
+                        {
+                            <div>@t</div>
+                        }
+                    }
+                </Template>
+            </GridColumn>
+            <GridColumn Field=@nameof(TicketDto.CustomerName) Visible="ColumnVisb[11]" HeaderText="Customer" TextAlign="TextAlign.Left">
+                <Template>
+                    @{
+                        var cell = (context as TicketDto);
+                        var t = cell.CustomerName;
+                        if (cell.Priority == Priority.High || cell.Priority == Priority.Critical)
+                        {
+                            <div class="height-font">@t</div>
+                        }
+                        else
+                        {
+                            <div>@t</div>
+                        }
+                    }
+                </Template>
+            </GridColumn>
+            <GridColumn Field=@nameof(TicketDto.AssetName) Visible="ColumnVisb[12]" HeaderText="Asset" TextAlign="TextAlign.Left">
+                <Template>
+                    @{
+                        var cell = (context as TicketDto);
+                        var t = cell.AssetName;
+                        if (cell.Priority == Priority.High || cell.Priority == Priority.Critical)
+                        {
+                            <div class="height-font">@t</div>
+                        }
+                        else
+                        {
+                            <div>@t</div>
+                        }
+                    }
+                </Template>
+            </GridColumn>
+            <GridColumn Field=@nameof(TicketDto.DeviceName) Visible="ColumnVisb[13]" HeaderText="Device" TextAlign="TextAlign.Left">
+                <Template>
+                    @{
+                        var cell = (context as TicketDto);
+                        var t = cell.DeviceName;
+                        if (cell.Priority == Priority.High || cell.Priority == Priority.Critical)
+                        {
+                            <div class="height-font">@t</div>
+                        }
+                        else
+                        {
+                            <div>@t</div>
+                        }
+                    }
+                </Template>
+            </GridColumn>
+
+        </GridColumns>
+
+    </SfGrid>
+</div>

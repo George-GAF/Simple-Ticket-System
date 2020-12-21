@@ -1,0 +1,121 @@
+﻿@inherits OpenTicketBase
+
+<style>
+
+    .margin-lr {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .margin-tb {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .input-text {
+        border-width: 0.5px;
+        width: 97%;
+        margin: 10px 1.5% 10px 0px;
+        padding: 5px;
+        font-size: 18px;
+        border-color: #dadddd
+    }
+
+    .div-col {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        margin: 5px
+    }
+
+    .start-point {
+        margin-left: 10px
+    }
+
+    .div-body {
+        margin: 25px;
+        padding: 20px;
+        background-color: white
+    }
+    .replytext {
+        border-radius: 10px;
+        background-color: white;
+        padding:8px
+    }
+</style>
+
+<div class="div-col">
+    <div>
+        <div class="rounded-sm shadow div-body">
+            <a href="" class="btn btn-primary" style="font-size:12px">Replay</a>
+            <a href="" class="btn btn-primary" style="font-size:12px">@(TicketDto.Closed ? "Closd":"Open")</a>
+
+            <div style="margin:3px">
+                <h6>@TicketDto.TicketNo</h6>
+                <h4> @TicketDto.Subject</h4>
+
+                @{
+                    string cBa = string.Empty;
+
+                    if (TicketDto.Priority == Priority.Critical)
+                        cBa = "danger";
+                    else if (TicketDto.Priority == Priority.High)
+                        cBa = "primary";
+                    else if (TicketDto.Priority == Priority.Normal)
+                        cBa = "light";
+                    else if (TicketDto.Priority == Priority.Low)
+                        cBa = "warning";
+                    else
+                        cBa = "secondary";
+                }
+                <span class="badge badge-@cBa">@TicketDto.Priority</span>
+                <p style="font-size:20px">@TicketDto.Description</p>
+            </div>
+            @if (!IsShowReplayTextRichBox)
+            {
+                <input type="text" class="rounded input-text" @onclick="@ShowReplayTextRichBox" placeholder="Replay..." />
+            }
+
+        </div>
+
+        @if (IsShowReplayTextRichBox)
+        {
+            <div class="shadow margin-lr replytext"> 
+                <div >
+                    <SfRichTextEditor Width="auto" Height="100" @bind-Value="@TextValue" EditorMode="EditorMode.Markdown" EnableHtmlEncode="false" />
+                </div>
+                <div class="text-justify margin-lr text-truncate" style="margin-top:5px;margin-bottom:5px">Attach file</div>
+                <div class="margin-lr">
+                    <SfUploader AutoUpload="false" AllowedExtensions=".jpg,.png,.bmp">
+                        <UploaderEvents ValueChange="OnChange">
+
+                        </UploaderEvents>
+                    </SfUploader>
+                </div>
+                <div class="margin-lr margin-tb">
+                    <button type="button" class="btn btn-primary" @onclick="@(e => ChangeState(true))">Save</button>
+                    <button type="button" class="btn btn-danger" @onclick="@(e => ChangeState(false))">Cancel</button>
+                </div>
+            </div>
+        }
+        <div>
+            @if (TicketDto.TicketDetails.Count > 0)
+            {
+                List<TicketDetailDto> ltd ;
+
+                ltd = (from s in TicketDto.TicketDetails orderby s.CreatedOn descending select s).ToList();
+
+                foreach (var detail in ltd)
+                {
+                    <ReplayBox TicketDetailDto="detail"></ReplayBox>
+                }
+            }
+        </div>
+    </div>
+    <div>
+        <div class="div-body rounded-sm shadow">
+            Data Open : @TicketDto.OpenOn
+            <br>
+            Opne By : @TicketDto.OpenByUserName
+        </div>
+    </div>
+</div>

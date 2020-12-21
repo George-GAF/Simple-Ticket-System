@@ -1,0 +1,28 @@
+﻿@inherits ReplayBase
+<style>
+    .replay-box {
+        background-color: white;
+        border-radius: 10px;
+        min-height:60px;
+        padding:15px;
+    }
+
+    .margin {
+      
+        padding: 10px;
+        display:grid;
+        grid-template-columns:70px auto;
+        grid-column-gap:10px
+    }
+    .side-icon{
+       border-radius:50%
+    }
+</style>
+<div class="margin">
+    <img src="/images/P.jpg" class="side-icon" asp-append-version="true" alt="icon" width="60" height="60" />
+    <div class="shadow replay-box">
+        <p>@TicketDetailDto.CreatedUserName</p>
+        <p>Create : @TicketDetailDto.CreatedOn</p>
+        <p>@TicketDetailDto.DetailDescription</p>
+    </div>
+</div>

@@ -1,0 +1,73 @@
+﻿@inherits FilterSideBase
+
+<style>
+    .filter-side {
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-gap: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: auto
+    }
+
+    .round-corner {
+        border-radius: 10px;
+        border-width: 0px
+    }
+
+    .title-slide {
+        font-size: 14px;
+        font-weight: bold;
+        background-color: gray;
+        padding: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding-bottom: 15px;
+    }
+
+    .subdivstyle {
+        padding-top: 10px;
+        padding-bottom: 10px
+    }
+</style>
+
+<div class="filter-side round-corner">
+    <div class="card shadow round-corner">
+        <div class="title-slide">
+            Sort By
+        </div>
+        <div style="padding:3%">
+            <div class="subdivstyle">
+                <SfComboBox TValue="string" TItem="ChooseList" DataSource="list" Placeholder="Columns Name">
+                    <ComboBoxFieldSettings Value="ID" Text="Text"></ComboBoxFieldSettings>
+                </SfComboBox>
+            </div>
+        </div>
+    </div>
+    <div class="card shadow round-corner">
+
+        <div class="title-slide">
+            <p>Select columns to display</p>
+        </div>
+        <div class="subdivstyle" style="padding:3%">
+            @*@for (int i = 0; i < list.Count; i++)
+                {
+                    <div><SfCheckBox Label="@list[i].Text" @bind-Checked="IsChecked[i]"></SfCheckBox></div>
+                }*@
+            <div><SfCheckBox Label="@list[0].Text"  @bind-Checked="IsChecked[0]" @onchange="onChange"></SfCheckBox></div>
+            <div><SfCheckBox Label="@list[1].Text"  @bind-Checked="IsChecked[1]"@onchange="onChange"></SfCheckBox></div>
+            <div><SfCheckBox Label="@list[2].Text"  @bind-Checked="IsChecked[2]"@onchange="onChange"></SfCheckBox></div>
+            <div><SfCheckBox Label="@list[3].Text"  @bind-Checked="IsChecked[3]"@onchange="onChange"></SfCheckBox></div>
+            <div><SfCheckBox Label="@list[4].Text"  @bind-Checked="IsChecked[4]"@onchange="onChange"></SfCheckBox></div>
+            <div><SfCheckBox Label="@list[5].Text"  @bind-Checked="IsChecked[5]"@onchange="onChange"></SfCheckBox></div>
+            <div><SfCheckBox Label="@list[6].Text"  @bind-Checked="IsChecked[6]"@onchange="onChange"></SfCheckBox></div>
+            <div><SfCheckBox Label="@list[7].Text"  @bind-Checked="IsChecked[7]"@onchange="onChange"></SfCheckBox></div>
+            <div><SfCheckBox Label="@list[8].Text"  @bind-Checked="IsChecked[8]"@onchange="onChange"></SfCheckBox></div>
+            <div><SfCheckBox Label="@list[9].Text"  @bind-Checked="IsChecked[9]"@onchange="onChange"></SfCheckBox></div>
+            <div><SfCheckBox Label="@list[10].Text" @bind-Checked="IsChecked[10]"@onchange="onChange"></SfCheckBox></div>
+            <div><SfCheckBox Label="@list[11].Text" @bind-Checked="IsChecked[11]"@onchange="onChange"></SfCheckBox></div>
+            <div><SfCheckBox Label="@list[12].Text" @bind-Checked="IsChecked[12]"@onchange="onChange"></SfCheckBox></div>
+            <div><SfCheckBox Label="@list[13].Text" @bind-Checked="IsChecked[13]"@onchange="onChange"></SfCheckBox></div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+﻿@inherits CustomizeRichTextBase
+
+    <div>
+        <div class="margin-lr">
+            <SfRichTextEditor Width="auto" Height="@Height" @bind-Value="@TextValue" EnableHtmlEncode="false" />
+        </div>
+        <div class="text-justify margin-lr text-truncate" style="margin-top:5px;margin-bottom:5px">Attach file</div>
+        <div class="margin-lr">
+            <SfUploader AutoUpload="false" AllowedExtensions=".jpg,.png.bmp">
+                <UploaderEvents ValueChange="OnChange">
+
+                </UploaderEvents>
+            </SfUploader>
+        </div>
+        <div class="margin-lr margin-tb">
+            <button type="button" class="btn btn-primary">Save</button>
+            <button type="button" class="btn btn-danger" >Cancel</button>
+        </div>
+    </div> 

@@ -1,0 +1,159 @@
+﻿@page "/"
+
+<style>
+    .grid-container-row {
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-gap: 20px
+    }
+
+    .grid-container-col {
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+
+    .center-thing {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+
+<div class="grid-container-row" style="min-width:100%">
+    <FilterBar ShowItem="isNewTic" ShowNewTicket="ShowContent"></FilterBar>
+
+    @if (!isNewTic && !isOpenTicket)
+    {
+        <div class="grid-container-col">
+            <FilterSide SetColVis="ColumnVisiblity"></FilterSide>
+            <Task OpenTicket="DisolayTicket" ColumnVisb="colVis" Currentuser="CurrentUser"></Task>
+        </div>
+    }
+    else if (isNewTic)
+    {
+        <div style="min-width:100%;min-height:100%">
+            <div class="center-thing">
+                <NewTicket CloseNewTicket="ShowContent"></NewTicket>
+            </div>
+        </div>
+    }
+    else if (isOpenTicket)
+    {
+        <OpenTicket TicketDto="ticketDto"></OpenTicket>
+    }
+</div>
+
+    @using System.Collections.Generic;
+    @using Newtonsoft.Json;
+    @using System.IO;
+    @using System.Linq;
+
+@code{
+
+    protected bool isOpenTicket { get; set; } = false;
+
+    protected bool isNewTic { get; set; } = false;
+
+    protected TicketDto ticketDto { get; set; }
+
+    protected bool[] colVis { get; set; }
+
+    public User CurrentUser { get; set; }
+
+    public List<TicketDto> TicketDtos { get; set; }
+
+    protected override System.Threading.Tasks.Task OnInitializedAsync()
+    {
+        User currentUser = new User()
+        {
+            UserID = 1,
+            UserName = "Current User",
+            IsEmplo = true
+        };
+
+        colVis = new bool[14];
+        for (int i = 0; i < colVis.Length; i++)
+        {
+            colVis[i] = true;
+        }
+
+        string dataSource = File.ReadAllText("E:\\My Project\\C# Project\\BlazorApp.Web\\DataFiles\\Subject.json");
+
+        var myList = JsonConvert.DeserializeObject<List<sub>>(dataSource);
+
+        TicketDtos = Enumerable.Range(1, 75).Select(x => new TicketDto()
+        {
+            TicketNo = (1000 + x).ToString(),
+            TicketDate = DateTime.Now.AddDays(new Random().Next(-365, 365)),
+            TicketTypeId = new Random().Next(1, 75),
+            TicketTypeName = "Frist Type",
+            Subject = (myList[new Random().Next(myList.Count - 1)].subject),
+            Description = (myList[new Random().Next(myList.Count - 1)].Description),
+            OpenOn = DateTime.Now.AddDays(new Random().Next(-360, 360)),
+            OpenByUserId = new Random().Next(0, 20),
+            OpenByUserName = "User",
+            ClosedOn = (new DateTime?[] { null, DateTime.Now.AddDays(new Random().Next(-100, 100)) })[new Random().Next(2)],
+            Closed = (new bool[] { true, false })[new Random().Next(2)],
+            CloseByUserId = new Random().Next(0, 20),
+            CloseByUserName = "User",
+            CustomerId = new Random().Next(0, 100),
+            AssetId = new Random().Next(0, 1000),
+            Priority = (new Priority[] { Priority.Critical, Priority.High, Priority.Normal, Priority.Low, Priority.Lowest })[new Random().Next(5)],
+            CustomerName = (myList[new Random().Next(myList.Count - 1)].CustomrName),
+            AssetName = (myList[new Random().Next(myList.Count - 1)].AssetName),
+            DeviceId = new Random().Next(0, 100),
+            DeviceName = (myList[new Random().Next(myList.Count - 1)].DeviceName),
+            IsSelected = false,
+            TicketDetails = Enumerable.Range(1, new Random().Next(3, 8)).Select(j => new TicketDetailDto
+            {
+                TicketNo = ((1000 + x).ToString()),
+                CreatedOn = (DateTime.Now.AddDays(new Random().Next(-200, 200))),
+                CreatedByUserId = new Random().Next(0, 20),
+                CreatedUserName = "User",
+                DetailDescription = (myList[new Random().Next(myList.Count - 1)].Description),
+                AssignToTechnicianId = new Random().Next(0, 20),
+                TechnicianName = "Technician Name",
+                StartOn = (DateTime.Now.AddDays(new Random().Next(-200, 200))),
+                EndOn = (DateTime.Now.AddDays(new Random().Next(-200, 200))),
+                IsInternal = (new bool[] { true, false })[new Random().Next(2)]
+            }).ToList()
+        }).ToList();
+
+
+        return base.OnInitializedAsync();
+    }
+
+
+    //send array of bool to show hide column
+    public void ColumnVisiblity(bool[] col_Vis)
+    {
+        colVis = col_Vis;
+
+    }
+
+    // detect if new ticket show or not
+    public void ShowContent(bool isNewTicket)
+    {
+        isNewTic = isNewTicket;
+        isOpenTicket = false;
+    }
+    //send data to ticket view
+    public void DisolayTicket(TicketDto ticketDto)
+    {
+        this.ticketDto = ticketDto;
+        isOpenTicket = true;
+
+    }
+
+    public class sub
+    {
+        public string subject { get; set; }
+        public string Description { get; set; }
+        public string CustomrName { get; set; }
+        public string AssetName { get; set; }
+        public string DeviceName { get; set; }
+    }
+}
+
+
+
